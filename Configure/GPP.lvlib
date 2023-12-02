@@ -15,8 +15,8 @@
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)K!!!*Q(C=\&gt;7^&lt;2N"%-8R:U/"5X:AM)88!FNA"1+G";9+W=,EDAAI6%1IM\.JA3V1(?D]P^7!)+!0*L*A#,L4(MGXN\-`\BV0UNB_3&amp;?;,GW0&lt;WZH`61=\?HQL&amp;^^U.0BB@[,YX5K]OL]&lt;`3`YL_Q[7P\WD\X&gt;H0R2`$0@Q@@.$_);%6,7N#M?&gt;KJS)O]S)O]S)M]S:-]S:-]S:-]S)-]S)-]S)0=Z#9XO=F.&lt;P+REYN=Z#+(6%R?4&amp;15,1I5*U.2=3A]B;@Q&amp;"Y_KP!5HM*4?!I0J[DQ&amp;*\#5XA+$].5?!J0Y3E]B9&gt;31V*D*]&gt;4?#CPR*.Y%E`C34R-K=34!*,*EM**%2B+/J-XC3@R*"\?+P%EHM34?")0X5I]C3@R**\%QZ#R+DEU]U[/BT)+0)%H]!3?Q%.J":\!%XA#4_"B/A7?Q"-AAAG$YB!5$!J/#$Y%HM$$CQ*0Y!E]A3@QU$7O5)S6G48T4I\(?)T(?)T(?#ABYT%?YT%?Y['MD-&gt;YD-&gt;YD)?J:$T'9TQ'9C:F?JFC:K!ZS14'Q^_Y7TSO5A[*RS\VT;O_+&gt;5XG`IG5N]=[IOOPJDKC[2?@07CKB&gt;,P1DK,[&gt;'KT(K3&gt;3$ZR.VZ(CA\7E\WJ;WI;VJ+^K3NJC(PP/*R_.2B]."_`V?O^V/W_V7G]V'[`6;K^6+S_63C]8C^"DYS8Z[)*Q^FXZ@4^0^\44^YP8O9:L_0(T5`_@`Y.GI\TK@AT8[#^`OT+9!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
-	<Item Name="Public" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+	<Item Name="Private" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Action-Status" Type="Folder">
 			<Item Name="Action-Status.mnu" Type="Document" URL="../Public/Action-Status/Action-Status.mnu"/>
@@ -165,5 +165,10 @@
 		<Item Name="dir.mnu" Type="Document" URL="../Public/dir.mnu"/>
 		<Item Name="Close.vi" Type="VI" URL="../Public/Close.vi"/>
 		<Item Name="Initialize.vi" Type="VI" URL="../Public/Initialize.vi"/>
+	</Item>
+	<Item Name="Public" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="OUTPUT.vi" Type="VI" URL="../OUTPUT.vi"/>
+		<Item Name="SetVoltageCurrent.vi" Type="VI" URL="../SetVoltageCurrent.vi"/>
 	</Item>
 </Library>
